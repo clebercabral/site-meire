@@ -50,7 +50,7 @@ em{font-style:italic;color:var(--rose-dark)}
 .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:2rem}
 .hero-text p{max-width:520px;font-size:1.05rem}
 .hero-art{display:flex;justify-content:center}
-.hero-art img{width:min(340px,100%);border-radius:50% 50% 12px 12px / 30% 30% 12px 12px;box-shadow:0 20px 60px rgba(154,104,98,.25)}
+.hero-art img{width:min(420px,100%);height:auto;filter:drop-shadow(0 20px 40px rgba(154,104,98,.25))}
 
 /* about */
 .about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:4rem;align-items:center}
@@ -117,7 +117,7 @@ cite{font-size:.85rem;font-style:normal;color:var(--rose-dark)}
   .hero-text p{margin:0 auto}
   .hero-actions{justify-content:center}
   .hero-art{order:-1}
-  .hero-art img{width:200px}
+  .hero-art img{width:230px}
   .hero{padding-top:6rem}
   .cards{grid-template-columns:1fr}
   .cards .card,.cards .card:nth-child(n+4){grid-column:auto}
